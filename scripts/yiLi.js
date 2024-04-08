@@ -57,7 +57,7 @@ const body = {
 
 !(async () => {
   if (typeof $request !== `undefined`) {
-    if ($request?.body.includes('MALLIFCheese.GetPointsBalance')) {
+    if ($request?.body?.includes('MALLIFCheese.GetPointsBalance')) {
       let reqBody = JSON.parse(
         decodeURIComponent($request.body)
           .replace(/RequestPack=/, '')
@@ -82,7 +82,7 @@ const body = {
       $.users[OpenId] = $.userInfo;
 
       if ($.userInfo.aspnetUserId) {
-        if ($.setData(JSON.stringify($.users), $.COOKIES_KEY)) {
+        if ($.setdata(JSON.stringify($.users), $.COOKIES_KEY)) {
           $.subt = `获取会话: 成功!`;
         } else {
           $.subt = `获取会话: 失败!`;
