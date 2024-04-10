@@ -19,16 +19,16 @@
 | 09   | [捷停车](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js)             | task & rewrite | 2024-02-18 | NE & Node | ✅       |
 | 10   | [丽影云街](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/livingmall.js)              | task & rewrite | 2024-03-27 | NE & Node | ✅       |
 | 11   | [PP 停车](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/pp_parking.js)               | task & rewrite | 2024-03-12 | NE & Node | ✅       |
-| 12   | [托迈酷客](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js)              | task & rewrite | 2024-02-18 | NE & Node | ✅       |
+| 12   | [复游会（托迈酷客）](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js)    | task & rewrite | 2024-04-10 | NE & Node | ✅       |
 | 13   | [新浪微博](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js)              | task & rewrite | 2022-11-08 | NE & Node | ✅       |
-| 14   | [威锋论坛](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weifeng.js)                 | task & rewrite | 2022-11-15 | NE & Node | ✅       |
+| 14   | [威锋论坛](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weifeng.js)                 | task           | 2022-11-15 | NE & Node | ✅       |
 | 15   | [伊利乳品](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/yiLi.js)                    | task & rewrite | 2024-04-08 | NE & Node | ✅       |
 | 16   | [悦然荟](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/yueran_sign.js)               | task & rewrite | 2024-02-26 | NE & Node | ✅       |
 | 17   | [花城汇](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/hch_sign.js)                  | task & rewrite | 2024-02-26 | NE & Node | ✅       |
 | 18   | [途虎养车](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tuhu.js)                    | task & rewrite | 2023-03-20 | NE & Node | ✅       |
-| 19   | [谢瑞麟 · TSL](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js)            | task & rewrite | 2024-02-26 | NE & Node | ✅       |
+| 19   | [谢瑞麟 · TSL](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js)            | task & rewrite | 2024-04-11 | NE & Node | ✅       |
 | 20   | [微信支付有优惠](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js) | task & rewrite | 2024-04-05 | NE        | ✅       |
-| 21   | [永旺 Aeon](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/aeon_sign.js)              | task & rewrite | 2024-04-05 | NE & Node | ✅       |
+| 21   | [永旺 Aeon](https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/aeon_sign.js)              | task & rewrite | 2024-04-11 | NE & Node | ✅       |
 
 ---
 
