@@ -23,8 +23,6 @@ hostname = tslmember-crm.tslj.com
 [Script]
 http-response https:\/\/tslmember-crm\.tslj\.com\.cn\/api\/auth\/login tag=谢瑞麟²,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js,requires-body=1
 
-http-request ^https?:\/\/wox2019\.woxshare\.com\/clientApi\/userCenterDetail tag=谢瑞麟, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js,requires-body=0
-
 cron "17 7 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js,tag = 谢瑞麟,enable=true
 
 -------------- Quantumult X 配置 --------------

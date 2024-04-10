@@ -1160,7 +1160,7 @@
       ]
     },
     {
-      "id": "aeon_sign",
+      "id": "tsl_sign",
       "name": "谢瑞麟 TSL",
       "author": "@FoKit",
       "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/tsl_sign.js",
