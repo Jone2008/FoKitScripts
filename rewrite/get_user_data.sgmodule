@@ -3,7 +3,7 @@
 #!category=FoKit
 
 [MITM]
-hostname = %APPEND% e.189.cn, open.e.189.cn, api.aeonbuy.com, api.m.jd.com, perf.m.jd.com, app.moutai519.com.cn, member.mowgz.com, sweixin.hisense.com, yunbusiness.ccb.com, sytgate.jslife.com.cn, rest.zhimatech.com, api.660pp.com, apis.folidaymall.com, payapp.weixin.qq.com, api.tuhu.cn, club.yili.com, wox2019.woxshare.com, ccsp-egmas.sf-express.com
+hostname = %APPEND% e.189.cn, open.e.189.cn, api.aeonbuy.com, api.m.jd.com, perf.m.jd.com, app.moutai519.com.cn, member.mowgz.com, sweixin.hisense.com, yunbusiness.ccb.com, sytgate.jslife.com.cn, rest.zhimatech.com, api.660pp.com, apis.folidaymall.com, payapp.weixin.qq.com, api.tuhu.cn, club.yili.com, wox2019.woxshare.com, ccsp-egmas.sf-express.com, vip.heytea.com, www.kozbs.com, cdfmbrapi.cdfg.com.cn
 
 
 [Script]
@@ -41,3 +41,9 @@ PP 停车 = type=http-request,pattern=^https:\/\/api\.660pp\.com\/rest\/[\d\.]+?
 #################### 以下为非本人脚本部分 ####################
 
 顺丰速运 = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=0
+
+喜茶 = type=http-response,pattern=^https:\/\/vip.heytea.com\/api\/service-member\/vip\/task\/member,requires-body=1,max-size=0,timeout=1000,script-path=https://gist.githubusercontent.com/Sliverkiss/cc0928ca661cf3d89f55902e11b28432/raw/heytea.js,script-update-interval=0
+
+植白说 = type=http-request,pattern=https:\/\/www\.kozbs\.com\/demo\/wx\/home\/signDay\?userId=.+,requires-body=0,max-size=0,timeout=1000,script-path=https://gist.githubusercontent.com/Sliverkiss/3bd5650dab5194261d9426869ae8cd38/raw/zbs.js,script-update-interval=0
+
+中免会员 = type=http-response,pattern=^https:\/\/cdfmbrapi\.cdfg\.com\.cn\/api\/user\/info,requires-body=1,max-size=0,timeout=1000,script-path=https://gist.githubusercontent.com/Sliverkiss/2babe9ffd5dc6c7929e667bb2203421a/raw/zmhy.js,script-update-interval=0
